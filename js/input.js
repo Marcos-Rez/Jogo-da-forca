@@ -108,6 +108,13 @@ function isLetter2(str) {
         return "ERRO ! Você não é digitou uma letra.";
     } 
 }
+function Start() {
+    pincel.font = "100px Comic Sans MS";
+    pincel.fillStyle = "blue";
+    pincel.fillText("Escolha uma letra!" ,100, 100 );
+}
+
+
 
 //keydown aciona apenas quando a tecla é pressionada, <<<pode repetir varias vezes se for segurada.>>>
 ////keyup aciona apenas quando a tecla retorna para cima <<<Só repete uma vez não adianta segurar a tecla>>>>
@@ -115,6 +122,7 @@ function isLetter2(str) {
 var inicio = document.querySelector("#iniciar");
 inicio.addEventListener("click", function(event){
     event.preventDefault();
+    Start();
 
     document.addEventListener("keyup", function teclado(event) {
         
@@ -143,6 +151,9 @@ inicio.addEventListener("click", function(event){
                 pincel.fillStyle = "blue";
                 pincel.fillText("Você venceu !" ,20, 300 );
                 pincel.fillText(":)" ,450, 500 );
+                setTimeout(function(){
+                    location.reload();
+                },2000);
             }
         }
     
@@ -161,6 +172,10 @@ inicio.addEventListener("click", function(event){
             pincel.fillStyle = "RED";
             pincel.fillText("Você perdeu !" ,20, 300 );
             pincel.fillText(":´(" ,450, 500 );
+            setTimeout(function(){
+                location.reload();
+            },2000);
+            
             
         }
         }
@@ -177,6 +192,7 @@ bto.addEventListener("click", function (event) {
     lista.push(adicionar.toUpperCase())
     console.log(lista)
 })
+
 
 
 
