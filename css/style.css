@@ -1,0 +1,52 @@
+canvas{
+    border: solid 1px rgba(11, 191, 197, 0.76);
+}
+
+.class-nome{
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 10px;
+    border-color: rgba(7, 184, 184, 0.247);
+    
+}        
+#adicionar{
+    background-color: rgba(11, 191, 197, 0.76);
+    color: white;
+    text-align: left;
+    margin: 3px;
+    border-radius: 10px;
+    border-color: rgba(184, 93, 7, 0.247);
+}
+.container{
+    margin-left: 370px;
+    text-align: center;
+    background-color: rgba(11, 191, 197, 0.39);
+    width: 270px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#adicionar:hover{
+    background-color: rgba(11, 191, 197, 0.76);
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.233);
+}
+#iniciar{
+    margin-left: 460px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(11, 191, 197, 0.76);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.233);
+    border-color: rgba(184, 93, 7, 0.247);
+}
+#iniciar:hover{
+    
+    background-color: cornflowerblue;
+}
