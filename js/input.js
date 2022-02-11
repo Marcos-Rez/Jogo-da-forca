@@ -109,9 +109,9 @@ function isLetter2(str) {
     } 
 }
 function Start() {
-    pincel.font = "100px Comic Sans MS";
+    pincel.font = "60px Comic Sans MS";
     pincel.fillStyle = "blue";
-    pincel.fillText("Escolha uma letra!" ,100, 100 );
+    pincel.fillText("Escolha uma letra!" ,500, 100 );
 }
 
 
